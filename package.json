@@ -1,0 +1,19 @@
+{
+  "name": "smartytour",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jpeg-js": "^0.4.3",
+    "threejs-miniprogram": "0.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.weixin.qq.com/wx_wx067a9a76dc390be8/ARTour.git"
+  },
+  "description": ""
+}

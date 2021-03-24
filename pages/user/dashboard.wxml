@@ -1,0 +1,8 @@
+<!--pages/user/dashboard.wxml-->
+<view>
+    <view>个人信息</view>
+    <view class="clickable" bindtap="onEnterQrcode">兑换奖励</view>
+    <view>问卷调查</view>
+    <view>分享快乐</view>
+    <view>设置</view>
+</view>

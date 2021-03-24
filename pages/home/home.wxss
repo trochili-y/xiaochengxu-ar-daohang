@@ -1,0 +1,33 @@
+/* pages/home/home.wxss */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* background: url(https://newhouse-marketing.oss-cn-shenzhen.aliyuncs.com/miniprogram/781616166849_.pic_w750.jpg)  no-repeat; */
+    background: url(https://xiaomin1978.oss-cn-beijing.aliyuncs.com/public/781616166849_.pic_w750.jpg)  no-repeat;
+    background-size: 750rpx 1061rpx;
+}
+.title {
+    text-align: center;
+    font-size: 22pt;
+    line-height: 100pt;
+    height: 100pt;
+    color: red;
+    font-weight: bolder;
+}
+
+.marker {
+    flex: 1;
+    border:1px solid blue;
+}
+.interaction {
+    height: 120pt;
+    border:1px solid red;
+    text-align: center;
+
+}
+
+.operations {
+    display: flex;
+    flex-flow: row nowrap;
+}

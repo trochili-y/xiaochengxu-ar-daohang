@@ -1,0 +1,18 @@
+<!--pages/splash/splash.wxml-->
+<view class="container">
+    <view class="top">
+        <mp-icon type="field" icon="time" color="black" size="{{25}}"></mp-icon>
+    </view>
+    <view class="center">
+        <text class="guide" bindtap="onJumpSplashScreen">游戏引导说明</text>
+    </view>
+    <view class="content">
+        <view class="font17" style="text-align: center">
+            <text>仙境寻踪</text>
+        </view>
+        <view>
+            点击寻宝导航，就往地图上的寻宝地点参与游戏吧，每识别一种植物可增加不同的分数，可凭着最后积分前往前台换取优厚的礼品呢！
+        </view>
+    </view>
+    
+</view>

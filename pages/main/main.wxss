@@ -1,0 +1,87 @@
+/* pages/main/main.wxss */
+/**index.wxss**/
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .userinfo-avatar {
+    width: 128rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+  }
+  
+  .userinfo-nickname {
+    color: #aaa;
+  }
+  
+  .usermotto {
+    margin-top: 200px;
+  }
+  
+  .commandcenter {
+    position:fixed;width:100%;
+    height:100px;z-index:10;
+    background-color: antiquewhite;
+    text-align: center;
+    bottom: 200px;
+  }
+  .commandcenter2 {
+    position:fixed;width:100%;
+    height: 200px;
+    bottom: 0px;
+    background-color: silver;
+  }
+  
+  .takephoto {
+    width: 48px;
+    height: 48px;
+  }
+  .plantphoto {
+    height: 60px;
+  }
+  
+  /* 解决 canvas 遮挡导致按钮事件无法触发的问题 */
+  /* https://blog.csdn.net/Misnice/article/details/102943795 */
+  .mycanvas {
+    pointer-events: none; 
+    border: 0rpx solid silver;
+    width: 746rpx; /*750-4*/
+    height: 1202rpx; /*1334-*/
+
+    position:fixed;top:0rpx;left: 0rpx;z-index:1; 
+  }
+
+  .poi_container {
+    position: relative;
+    width: 744rpx;
+    height: 1200rpx;
+    border: 0px solid green;
+    position:fixed;top:4rpx;left: 4rpx;z-index:1;  
+    z-index: 100;
+  }
+
+  .poi_marker {
+    position: absolute;
+    width: auto;
+    width: fit-content;
+    font-size: small;
+    /* border: 2px solid silver; */
+    padding: 2px;
+    /* background-color: blue; */
+    z-index: 110;
+    font-size: 16rpx;
+  }
+  .poi_marker .title {
+    background-color: orange;
+    z-index: 120;
+    /* display: block; */
+  }
+  
+  .poi_marker .distance {
+    /* display: block; */
+    color: white;
+    z-index: 120;
+  }

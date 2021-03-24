@@ -1,0 +1,13 @@
+<!--pages/tests/threejsbasic.wxml-->
+<!--WebGL层-->
+<view>
+  <canvas type="webgl" id="webgl" canvas-id="webgl" class="mycanvas" style="position:fixed;top:0;z-index:1; ">
+  </canvas>
+  <cover-view class="poi_container">
+    <block wx:for="{{pois}}">
+      <cover-view style="left: {{(item.xy.x+1) * 160}}px; top: {{(1-item.xy.y) * 200}}px"
+         class="poi_item">{{item.name}}</cover-view>
+    </block>
+  </cover-view>
+
+</view>

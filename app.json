@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/splash/splash",   
+    "pages/tests/location",
+    "pages/main/main",
+    "pages/tests/threejsbasic",
+    "pages/home/home",
+    "pages/user/dashboard",
+    "pages/user/qrcode",
+    "pages/plant/details"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "智慧景区",
+    "navigationBarTextStyle":"black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": [
+    "location"
+  ],
+  "useExtendedLib": {
+    "weui": true
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置将用于位置信息"
+    }
+  }
+}

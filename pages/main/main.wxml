@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view>
+  <!--WebGL层-->
+  <canvas 
+    type="webgl" 
+    id="webgl" 
+    canvas-id="webgl"
+    class="mycanvas"> 
+  </canvas>
+  <!--摄像头层-->
+  <camera 
+    mode="normal" 
+    device-position="back" 
+    flash="auto" 
+    frame-size="medium"
+    style="position:fixed;top:0;width:100%;height:100%;z-index:0">
+  </camera>
+  <cover-view class="poi_container">
+    <block wx:for="{{poiMarkers}}" wx:key="pid">
+      <cover-view class="poi_marker"
+         style="left: {{(item.xy.x+1) * 372}}rpx; top: {{(1-item.xy.y) * 600}}rpx; ><!--width: {{200-item.distance*200.0/10000}}rpx" -->
+        <cover-image src="../../res/markers/{{item.key}}.png" style="width: 60rpx;">{{item.distance}}</cover-image>
+        <cover-view class="distance">{{item.distance}}m</cover-view>
+      </cover-view>
+  </block>
+  </cover-view>
+  <!-- <view class="commandcenter">
+    <view><text>操作区域（拍照前）</text></view>
+    <cover-image bindtap="captureFrameAndUpload" src="../images/takephoto.png" class="takephoto"></cover-image>
+  </view> -->
+  <!-- <view class="commandcenter2">
+    <view><text>xxx植物（拍照后）</text></view>
+    <image src="../images/plant.jpeg" class="plantphoto"></image>
+    <cover-view style="z-index:20" bindtap="onEnterShare" class="clickable">生成美图</cover-view>
+    <cover-view style="z-index:40" bindtap="onEnterPlantDetail" class="clickable">查看详情</cover-view>
+  </view> -->
+  <canvas type="webgl" id="getImgCanvas" canvas-id="getImgCanvas"
+   style="position: absolute; width: 100px; height:100px;left:-1000px;"></canvas>
+</view>

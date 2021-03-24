@@ -1,0 +1,29 @@
+/* @author min */
+page {
+    height: 100%;
+}
+
+.clickable {
+    font-size: 12pt;
+    color: green;
+}
+
+.font22 {
+    font-size: 22pt;
+}
+
+.font17 {
+    font-size: 17pt;
+}
+
+.font15 {
+    font-size: 15pt;
+}
+
+.font14 {
+    font-size: 14pt;
+}
+
+.font12 {
+    font-size: 12pt;
+}

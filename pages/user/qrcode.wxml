@@ -1,0 +1,4 @@
+<!--pages/user/qrcode.wxml-->
+<view>
+    <image src="../images/qrcode.jpeg" ></image>
+</view>

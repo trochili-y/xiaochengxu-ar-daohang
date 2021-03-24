@@ -1,0 +1,16 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+    <!-- <view class="title">香境寻迷</view> -->
+    <view class="marker"></view>
+    <view class="interaction">
+        <view>
+            <text>园区消息轮播1</text>
+        </view>
+        
+        <view class="operations">
+            <button bindtap="onEnterARGame">AR 导航</button>
+            <button bindtap="onEnterDashboard">xx</button>
+            <button bindtap="onEnterDashboard">扫描</button>
+        </view>
+    </view>
+</view>

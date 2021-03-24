@@ -1,0 +1,4 @@
+<!--pages/tests/location.wxml-->
+<text>pages/tests/location.wxml</text>
+<view>long: {{longtitude}}</view>
+<view>lat: {{latitude}}</view>

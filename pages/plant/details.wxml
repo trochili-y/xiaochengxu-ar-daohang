@@ -1,0 +1,11 @@
+<!--pages/plant/details.wxml-->
+<view>
+    <text>pages/plant/details.wxml</text>
+    <image src="../images/plant.jpeg"></image>
+    <view>
+        识别植物图库文档介绍
+    </view>
+    <view>
+        园区相关开发的产品图文介绍
+    </view>
+</view>

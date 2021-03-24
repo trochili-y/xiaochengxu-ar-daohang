@@ -1,0 +1,26 @@
+/* pages/splash/splash.wxss */
+.container {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    height: 100%;
+    padding: 20rpx;
+    justify-content: space-between;
+}
+.top {
+    text-align: right;
+    flex:0 1 32rpx;
+}
+.center {
+    flex:1;
+    text-align: center;
+    padding-top: 200rpx;
+}
+.content {
+    flex: 2;
+    text-align: left;
+}
+.guide {
+    border: 1px solid black;
+    padding: 20rpx;
+}
